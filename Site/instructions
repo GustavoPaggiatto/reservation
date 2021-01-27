@@ -1,0 +1,11 @@
+Here are listed some instructions about APP:
+1. I used angular 9 because in my school machine i can't update version of angular.
+2. Configure a base url for ajax requests in "ConfigService" class (method "getBaseUrl()").
+3. Internationalization: I used i18n (according to requirements). at top of the views (app.componnent) we have two flag links (Brazil and Canada).
+   They point to the same base url because, as I did in debug only, internationalization only works for one language at a time. Bellow de commands for execute in diferent languages:
+      a. English (default): ng serve
+      b. Portuguese (Brazil): ng serve --configuration:br
+4. Componnents:
+  a. List Reservation (start): Responsible for listing existing reserves. In addition, we can click on the stars and the favorites icon to set their respective values on the server.
+  b. Create Reservation: Responsible for making and editing a reservation. Here we can also delete a contact through the grid. It is worth mentioning that the date is open if the reservation date is different from the contact's birthday.
+  c. Create Contact: This is a simple form in which the user informs the contact details and also his logo, if he has, to register. All validations are being performed.
