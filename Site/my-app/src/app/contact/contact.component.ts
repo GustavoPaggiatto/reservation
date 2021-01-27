@@ -127,8 +127,16 @@ export class ContactComponent implements OnInit {
       return;
     }
 
+    if (this._phone != null && this._phone.length > 0 && /[^\d]/gi.test(this._phone)) {
+      showError($localize`:@@errorPhone:Phone only accept numbers.`);
+      return;
+    }
+
     //show loading...
     this._loading = true;
+    
+    let dateTemporary = this._birthdate;
+    dateTemporary.setDate(dateTemporary.getDate() + 1);
 
     this._httpClient.post<Result>(
       this._configService.getBaseUrl() +
@@ -136,7 +144,7 @@ export class ContactComponent implements OnInit {
       (this._contactId != 0 ? "Edit" : "Create"), {
       id: this._contactId,
       name: this._name,
-      birthDate: this._birthdate,
+      birthDate: dateTemporary,
       contactTypeId: Number(this._contactTypeId),
       phone: this._phone,
       logo: this._logo

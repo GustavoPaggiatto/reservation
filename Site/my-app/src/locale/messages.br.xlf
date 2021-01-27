@@ -290,6 +290,10 @@
         <source>There are no records in the database</source>
         <target>Não há registros na base de dados</target>
       </trans-unit>
+      <trans-unit id="errorPhone" datatype="html">
+        <source>Phone only accept numbers.</source>
+        <target>O campo telefone só aceita números.</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

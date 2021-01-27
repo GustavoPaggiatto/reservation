@@ -238,11 +238,14 @@ export class ReservationComponent implements OnInit {
     this._loading = true;
     let contact: ContactContactType = this._contactContactTypes.find(c => c.contact.name == this._contactName);
 
+    let dateTemporary = this._birthdate;
+    dateTemporary.setDate(dateTemporary.getDate() + 1);
+
     this._http.post<Result>(this._config.getBaseUrl() + (this._reserveId == 0 ? "Reserve/Create" : "Reserve/Edit"), {
       id: Number(this._reserveId),
       contactId: Number(this._contactId),
       description: this._richValue,
-      schedule: this._birthdate,
+      schedule: dateTemporary,
       ranking: this._reserveRanking,
       favorite: this._reserveFavorite
     })
