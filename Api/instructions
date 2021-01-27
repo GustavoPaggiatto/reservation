@@ -1,0 +1,11 @@
+This is a WebApi project. Bellow are some instructions and infrmations:
+1. Technology: ASP .Net Core WebApi 3.1 (latest version).
+2. Persistency: EF Core Code-First).
+3. Database: SQL Server. In this directory we have a database create script, bacause im my school computer i don't have migrations package and i can't install it.
+4. Tiers:
+  . Domain: Contains the interfaces for patterns implementation and entities/adaptees/envelopers.
+  . Data: Persistency project with EF Core (private). Here we used the 'Repository' pattern in together with IoC and DI.
+  . Service: Business project. Here we have all necessary validations and business roles execution.
+  . CrossCutting: Register dependencies project. In this layer that we register all the dependencies that we will use in the API (Unity Container).
+  . Adapter: Project for adapter pattern implementation.
+  . API: REST Service.
