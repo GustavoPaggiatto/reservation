@@ -1,0 +1,16 @@
+Here we have some instructions about the angular application:
+1. Internationalization with i18n:
+  . Application has two languages, Portuguese (Brazil) and English (default). To build application in Portuguese mode write following command:
+      ng serve --configuration=br
+  . At top, we have two links (flags) with href attribute equals to "". They are missing the base url (english "" and portuguese "/br/" because I didn't publish the application and it is in debug mode only).
+2. I used angular 9 because i did the project in the scholl computer and here i can't update angular version.
+3. Componnents:
+  . List reservation: This is the default componnent and here, by clicking in favorite icon and ratting starts we set those respectively value in server side.
+  . Create reservation: Here i use some componnents (bellow):
+    . @angular/material/sort: Order table contacts by header clicking.
+    . JwPaginationComponent: For pagination (similar to the images sent).
+    . ej2-angular-richtexteditor: For rith text.
+    . DatePickerComponent: Date select.
+    . AutoComplete (angular material): When changing the content and selecting a contact loads the fields of the same (Date is not readonly because the reserve date does not necessarily have to be the contact's birthday.
+  . Create contact: This form is simple and is only used to create and edit a contact's data.
+  
