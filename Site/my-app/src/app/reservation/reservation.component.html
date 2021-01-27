@@ -1,0 +1,90 @@
+<div class="container" id="main-reservation">
+    <div class="row" id="main-contact">
+        <div class="col-sm-12 col-md-3 form-group">
+            <div class="input-group">
+                <span class="icon-mode"><i class="fa fa-user"></i></span>
+                <input i18n-placeholder="@@contactName" type="text" class="form-control" id="autoforce" placeholder="Contact Name" aria-label="Name" [(ngModel)]="_contactName" (keyup)="filter()" (focusout)="setContact()" matInput [matAutocomplete]="auto">
+                <mat-autocomplete #auto="matAutocomplete">
+                    <mat-option *ngFor="let c of _contactsComplete" [value]="c.name">
+                        {{c.name}}
+                    </mat-option>
+                </mat-autocomplete>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-3 form-group">
+            <div class="input-group">
+                <span class="icon-mode"><i class="fa fa-globe-europe"></i></span>
+                <input i18n-placeholder="@@contactType" type="text" id="txt-contact-type" class="form-control" placeholder="Contact Type" value="{{_contactTypeDescription}}" readonly>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-3 form-group">
+            <div class="input-group">
+                <span class="icon-mode"><i class="fa fa-phone"></i></span>
+                <input i18n-placeholder="@@contactPhone" type="text" id="txt-contact-phone" class="form-control" placeholder="Phone" value={{_contactPhone}} readonly>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-3 form-group">
+            <mat-form-field>
+                <input i18n-placeholder="@@contactBirthDate" matInput [matDatepicker]="picker" placeholder="Birthdate" [(ngModel)]="_birthdate">
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+            <!--<div class="input-group">
+                <span class="icon-mode"><i class="fa fa-calendar-week"></i></span>
+                <input i18n-placeholder="@@contactBirthDate" type="text" id="txt-contact-birthdate" class="form-control" placeholder="Birthdate" value="{{_contactDate}}" readonly>
+            </div>-->
+        </div>
+    </div>
+    <div class="row" id="main-description">
+        <div class="col-sm-12 form-group">
+            <ejs-richtexteditor #fromRTE #name='ngModel' [(value)]='_richValue' required name="name" [(ngModel)]="_richValue"></ejs-richtexteditor>
+        </div>
+    </div>
+    <div class="row" id="main-buttons">
+        <div class="col-sm-12 text-center form-group">
+            <button i18n="@@listContacts" id="btn-list-contacts" class="btn btn-especific" (click)="showContacts()">List Contacts</button>
+            <button i18n="@@createReservation" id="btn-reservation" class="btn btn-especific" (click)="doReserve()" *ngIf="_reserveId == 0">Create Reservation</button>
+            <button i18n="@@editReservation" id="btn-reservation" class="btn btn-especific" (click)="doReserve()" *ngIf="_reserveId != 0">Edit Reservation</button>
+            <a i18n="@@createContact" href="/contact" id="btn-create-contact" class="btn btn-especific">Create Contact</a>
+        </div>
+    </div>
+    <div class="row" id="main-contacts" *ngIf="_showContacts">
+        <div class="col-sm-12">
+            <table matSort (matSortChange)="sortData($event)" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th i18n="@@name" mat-sort-header="name">Name</th>
+                        <th i18n="@@phone" mat-sort-header="phone">Phone</th>
+                        <th i18n="@@birthDate" mat-sort-header="birthDate">Birth Date</th>
+                        <th i18n="@@contactType" mat-sort-header="descType">Type</th>
+                        <th i18n="@@edit">Edit</th>
+                        <th i18n="@@delete">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let cct of _contactsPerPage">
+                        <td>{{cct.contact.name}}</td>
+                        <td>{{cct.contact.phone}}</td>
+                        <td>{{cct.birthDateFormated}}</td>
+                        <td>{{cct.contactType.description}}</td>
+                        <td>
+                            <a i18n="@@editContact" href="/contact?id={{cct.contact.id}}" class="btn btn-especific">Edit</a>
+                        </td>
+                        <td>
+                            <button i18n="@@delete" class="btn btn-especific" (click)="deleteContact(cct.contact.id)">Delete</button>
+                        </td>
+                    </tr>
+                    <tr *ngIf="_contactsPerPage == null || _contactsPerPage.length == 0">
+                        <td colspan="6" class="text-center">
+                            <p i18n="@@emptyDatabase">There are no records in the database</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-sm-12 suppress-margin-left">
+            <jw-pagination id="jw-paginator" [items]="_contactContactTypes" [pageSize]="4" (changePage)="onChangePage($event)"></jw-pagination>
+        </div>
+    </div>
+    <ngx-loading [show]="_loading"></ngx-loading>
+</div>

@@ -1,0 +1,40 @@
+<div id="div-top" class="header-reservation">
+    <img src="../assets/imgs/top_image_md_screen.jpg" class="header-reservation-img header-reservation-img-default">
+    <img src="../assets/imgs/top_image_xs_screen.jpg" class="header-reservation-img header-reservation-img-mobile">
+    <a href="" class="flag">
+        <img src="../assets/imgs/canada-flag.jpg" class="margin">
+    </a>
+    <a href="" class="flag">
+        <img src="../assets/imgs/brasil-flag.png">
+    </a>
+    <a href="{{_dynamicLink.href}}">
+         {{_dynamicLink.text}}
+         <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+<nav id="nav-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-8">
+                <div class="row">
+                    <div class="col-sm-12 col-md-5">
+                        <h2>{{_navTitle}}</h2>
+                    </div>
+                    <div class="col-md-7 reserved-text">
+                        Lorem ipsum dolor sit amet, concectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="col-sm-12 d-flex justify-content-end">
+                    <a class="btn" href="{{_dynamicLink.href}}">
+                        {{_dynamicLink.text}}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="app-component-content">
+    <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="addFavorites" datatype="html">
+        <source>Add Favorities</source>
+        <target>Add Favorities</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/list-reservation/list-reservation.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="remFavorites" datatype="html">
+        <source>Rem. Favorities</source>
+        <target>Rem. Favorities</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/list-reservation/list-reservation.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="edit" datatype="html">
+        <source>EDIT</source>
+        <target>EDIT</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/list-reservation/list-reservation.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reservation/reservation.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reservation/reservation.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactName" datatype="html">
+        <source>Contact Name</source>
+        <target>Contact Name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reservation/reservation.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactType" datatype="html">
+        <source>Contact Type</source>
+        <target>Contact Type</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reservation/reservation.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reservation/reservation.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactPhone" datatype="html">
+        <source>Phone</source>
+        <target>Phone</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reservation/reservation.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactBirthDate" datatype="html">
+        <source>Birthdate</source>
+        <target>Birthdate</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reservation/reservation.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactLogo" datatype="html">
+        <source>Logo</source>
+        <target>Logo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="createContact" datatype="html">
+        <source>Create</source>
+        <target>Create</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reservation/reservation.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="editContact" datatype="html">
+        <source>Edit</source>
+        <target>Edit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="listContacts" datatype="html">
+        <source>List Contacts</source>
+        <target>List Contacts</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reservation/reservation.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="createReservation" datatype="html">
+        <source>Create Reservation</source>
+        <target>Create Reservation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reservation/reservation.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="editReservation" datatype="html">
+        <source>Edit Reservation</source>
+        <target>Edit Reservation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reservation/reservation.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="name" datatype="html">
+        <source>Name</source>
+        <target>Name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reservation/reservation.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="phone" datatype="html">
+        <source>Phone</source>
+        <target>Phone</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reservation/reservation.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="birthDate" datatype="html">
+        <source>Birth Date</source>
+        <target>Birth Date</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reservation/reservation.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="delete" datatype="html">
+        <source>Delete</source>
+        <target>Delete</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reservation/reservation.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/reservation/reservation.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="errorContactTypes" datatype="html">
+        <source>An error occuring while get contact types, please retry.</source>
+        <target>An error occuring while get contact types, please retry.</target>
+      </trans-unit>
+      <trans-unit id="errorGetContact" datatype="html">
+        <source>An error occuring while get contact, please retry.</source>
+        <target>An error occuring while get contact, please retry.</target>
+      </trans-unit>
+      <trans-unit id="nameEmpty" datatype="html">
+        <source>Name is empty.</source>
+        <target>Name is empty.</target>
+      </trans-unit>
+      <trans-unit id="birthDateEmpty" datatype="html">
+        <source>Birthdate is empty or invalid.</source>
+        <target>Birthdate is empty or invalid.</target>
+      </trans-unit>
+      <trans-unit id="contactTypeEmpty" datatype="html">
+        <source>Contact Type not selected.</source>
+        <target>Contact Type not selected.</target>
+      </trans-unit>
+      <trans-unit id="createContactComplete" datatype="html">
+        <source>Create Contact.</source>
+        <target>Create Contact.</target>
+      </trans-unit>
+      <trans-unit id="contactCreateSuccess" datatype="html">
+        <source>Contact was saved with success!</source>
+        <target>Contact was saved with success!</target>
+      </trans-unit>
+      <trans-unit id="postError" datatype="html">
+        <source>Error occured while 'POST' request (view logs for more details).</source>
+        <target>Error occured while 'POST' request (view logs for more details).</target>
+      </trans-unit>
+      <trans-unit id="listReservation" datatype="html">
+        <source>Reservation List</source>
+        <target>Reservation List</target>
+      </trans-unit>
+      <trans-unit id="errorGetReserves" datatype="html">
+        <source>An error occuring while get reserves, please retry.</source>
+        <target>An error occuring while get reserves, please retry.</target>
+      </trans-unit>
+      <trans-unit id="errorSetRanking" datatype="html">
+        <source>An error occuring while set ranking, please retry.</source>
+        <target>An error occuring while set ranking, please retry.</target>
+      </trans-unit>
+      <trans-unit id="errorSetFavorite" datatype="html">
+        <source>An error occuring while set favorite, please retry.</source>
+        <target>An error occuring while set favorite, please retry.</target>
+      </trans-unit>
+      <trans-unit id="reservationOnly" datatype="html">
+        <source>Reservation.</source>
+        <target>Reservation.</target>
+      </trans-unit>
+      <trans-unit id="errorReserveData" datatype="html">
+        <source>An error occuring while get reserve data, please retry.</source>
+        <target>An error occuring while get reserve data, please retry.</target>
+      </trans-unit>
+      <trans-unit id="errorContactData" datatype="html">
+        <source>An error occuring while get contacts, please retry.</source>
+        <target>An error occuring while get contacts, please retry.</target>
+      </trans-unit>
+      <trans-unit id="contactNotSelected" datatype="html">
+        <source>Contact was not selected.</source>
+        <target>Contact was not selected.</target>
+      </trans-unit>
+      <trans-unit id="reservaDescriptionNotFill" datatype="html">
+        <source>Reserve description is not fill.</source>
+        <target>Reserve description is not fill.</target>
+      </trans-unit>
+      <trans-unit id="reservaCreationSuccess" datatype="html">
+        <source>Reservation was created with success!</source>
+        <target>Reservation was created with success!</target>
+      </trans-unit>
+      <trans-unit id="errorCreateReserve" datatype="html">
+        <source>An error occuring while sending reserve, please retry.</source>
+        <target>An error occuring while sending reserve, please retry.</target>
+      </trans-unit>
+      <trans-unit id="contactDeleteSuccess" datatype="html">
+        <source>Contact was deleted with success!</source>
+        <target>Contact was deleted with success!</target>
+      </trans-unit>
+      <trans-unit id="errorContactCreate" datatype="html">
+        <source>An error occuring while deleting contact, please retry.</source>
+        <target>An error occuring while deleting contact, please retry.</target>
+      </trans-unit>
+      <trans-unit id="order" datatype="html">
+        <source>Sort By</source>
+        <target>Sort By</target>
+      </trans-unit>
+      <trans-unit id="select" datatype="html">
+        <source>Select</source>
+        <target>Select</target>
+      </trans-unit>
+      <trans-unit id="orderDateAsc" datatype="html">
+        <source>By Date Ascending</source>
+        <target>By Date Ascending</target>
+      </trans-unit>
+      <trans-unit id="orderDateDesc" datatype="html">
+        <source>By Date Descending</source>
+        <target>By Date Descending</target>
+      </trans-unit>
+      <trans-unit id="orderNameAsc" datatype="html">
+        <source>By Alphabetic Ascending</source>
+        <target>By Alphabetic Ascending</target>
+      </trans-unit>
+      <trans-unit id="orderNameDesc" datatype="html">
+        <source>By Alphabetic Descending</source>
+        <target>By Alphabetic Descending</target>
+      </trans-unit>
+      <trans-unit id="orderRanking" datatype="html">
+        <source>By Ranking</source>
+        <target>By Ranking</target>
+      </trans-unit>
+      <trans-unit id="emptyDatabase" datatype="html">
+        <source>There are no records in the database</source>
+        <target>There are no records in the database</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

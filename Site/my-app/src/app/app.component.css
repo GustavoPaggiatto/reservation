@@ -1,0 +1,107 @@
+.header-reservation {
+    position: relative;
+}
+
+.header-reservation a {
+    color: #ffffff;
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    margin-top: 40px;
+    display: none;
+}
+
+.header-reservation a:hover {
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.header-reservation-img {
+    width: 100%;
+    height: auto;
+}
+
+.header-reservation a.flag {
+    display: inline;
+}
+
+.header-reservation a.flag img {
+    width: 30px;
+    height: auto;
+}
+
+.header-reservation a.flag img.margin {
+    margin-right: 40px;
+}
+
+.header-reservation-img.header-reservation-img-mobile {
+    display: none;
+}
+
+.header-reservation-img.header-reservation-img-default {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .header-reservation-img.header-reservation-img-mobile {
+        display: block;
+    }
+    .header-reservation-img.header-reservation-img-default {
+        display: none;
+    }
+    .header-reservation a {
+        color: #ffffff;
+        position: absolute;
+        top: 0px;
+        right: 50px;
+        margin-top: 50px;
+        display: inline;
+    }
+    .header-reservation a.flag {
+        color: #ffffff;
+        position: absolute;
+        top: 0px;
+        right: 50px;
+        margin-top: 20px;
+        display: inline;
+    }
+}
+
+#nav-top {
+    padding: 20px;
+}
+
+#nav-top a {
+    color: #ffffff;
+    background-color: #999999 !important;
+}
+
+.reserved-text {
+    color: #999999;
+}
+
+@media (max-width: 768px) {
+    #nav-top a,
+    .reserved-text {
+        display: none;
+    }
+}
+
+#nav-top h2 {
+    color: #b30000;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.btn.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(153, 153, 153, 0.25) !important;
+}
+
+.app-component-content {
+    background-color: #f2f2f2;
+    padding: 20px;
+}

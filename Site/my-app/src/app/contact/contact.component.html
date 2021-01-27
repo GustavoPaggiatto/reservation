@@ -1,0 +1,42 @@
+<div class="container" id="main-contact">
+    <div class="row">
+        <div class="col-sm-12 form-group">
+            <div class="input-group">
+                <span class="icon-mode"><i class="fa fa-user"></i></span>
+                <input i18n-placeholder="@@contactName" type="text" id="txt-contact-name" class="form-control" placeholder="Contact Name" [(ngModel)]="_name">
+            </div>
+        </div>
+        <div class="col-sm-12 form-group">
+            <div class="input-group">
+                <span class="icon-mode"><i class="fa fa-user"></i></span>
+                <select i18n-placeholder="@@contactType" id="sel-contact-type" class="form-control" placeholder="Contact Type" value="{{_contactTypeId}}" [(ngModel)]="_contactTypeId">
+                    <option *ngFor="let ct of _contactTypes" value="{{ct.id}}">{{ct.description}}</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-sm-12 form-group">
+            <div class="input-group">
+                <span class="icon-mode"><i class="fa fa-phone"></i></span>
+                <input i18n-placeholder="@@contactPhone" type="text" id="txt-contact-phone" class="form-control" placeholder="Phone" [(ngModel)]="_phone">
+            </div>
+        </div>
+        <div class="col-sm-12 form-group">
+            <mat-form-field>
+                <input i18n-placeholder="@@contactBirthDate" matInput [matDatepicker]="picker" placeholder="Birthdate" [(ngModel)]="_birthdate">
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+        </div>
+        <div class="col-sm-12 form-group">
+            <input i18n-placeholder="@@contactLogo" type="file" id="fl-contact" class="form-control-file" placeholder="Logo" (change)="selectFile($event)">
+        </div>
+        <div class="col-sm-12 form-group text-center">
+            <img class="logo" src="{{_logo}}">
+        </div>
+        <div class="col-sm-12 text-center">
+            <button i18n="@@createContact" class="btn btn-especific" id="btn-create" *ngIf="_contactId == 0" (click)="sendContact()">Create</button>
+            <button i18n="@@editContact" class="btn btn-especific" id="btn-edit" *ngIf="_contactId != 0" (click)="sendContact()">Edit</button>
+        </div>
+    </div>
+    <ngx-loading [show]="_loading"></ngx-loading>
+</div>

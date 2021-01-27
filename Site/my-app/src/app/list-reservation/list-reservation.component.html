@@ -1,0 +1,54 @@
+<div class="container" id="main-reservation">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 form-group">
+            <select id="sel-contact-type" class="form-control" value="{{_orderType}}" [(ngModel)]="_orderType" (change)="order()">
+                <option i18n="@@order" value="0">Sort By</option>
+                <option i18n="@@orderDateAsc" value="1">By Date Ascending</option>
+                <option i18n="@@orderDateDesc" value="2">By Date Descending</option>
+                <option i18n="@@orderNameAsc" value="3">By Alphabetic Ascending</option>
+                <option i18n="@@orderNameDesc" value="4">By Alphabetic Descending</option>
+                <option i18n="@@orderRanking" value="5">By Ranking</option>
+            </select>
+        </div>
+    </div>
+    <div class="row div-table" *ngFor="let reserve of _pageOfItems">
+        <div class="col-sm-4 col-md-2 hide">
+            <div class="d-flex align-items-center justify-content-center">
+                <img class="logo" src="{{reserve.contactInfo.logo}}">
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <p>{{reserve.contactInfo.name}}</p>
+            <span class="min-font">{{reserve.formatedSchedule}}</span>
+        </div>
+        <div class="col-sm-4 col-md-2 hide">
+            <div class="d-flex align-items-center justify-content-center">
+                <star-rating value="{{reserve.reserveInfo.ranking}}" totalstars="{{5}}" checkedcolor="red" uncheckedcolor="black" size="24px" readonly="false" (rate)="onRate($event, reserve.reserveInfo.id)"></star-rating>
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-4">
+            <div class="d-flex align-items-center justify-content-center">
+                <span i18n="@@addFavorites" class="hide" *ngIf="!reserve.reserveInfo.favorite">Add Favorities</span>
+                <span i18n="@@remFavorites" class="hide" *ngIf="reserve.reserveInfo.favorite">Rem. Favorities</span>
+                <img src="../../assets/imgs/negative_favorite.jpg" *ngIf="!reserve.reserveInfo.favorite" (click)="doFavorite(reserve.reserveInfo.id,true)">
+                <img src="../../assets/imgs/positive_favorite.jpg" *ngIf="reserve.reserveInfo.favorite" (click)="doFavorite(reserve.reserveInfo.id,false)">
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-1">
+            <div class="d-flex align-items-center justify-content-center">
+                <a i18n="@@edit" href="/reservation?id={{reserve.reserveInfo.id}}" class="btn">EDIT</a>
+            </div>
+        </div>
+    </div>
+    <div class="row div-table" *ngIf="_pageOfItems.length == 0">
+        <div class="col-sm-12 text-center">
+            <p i18n="@@emptyDatabase">There are no records in the database</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 suppress-margin-left">
+            <jw-pagination id="jw-paginator" [items]="_reservs.content" [pageSize]="4" (changePage)="onChangePage($event)"></jw-pagination>
+        </div>
+    </div>
+    <ngx-loading [show]="_loading"></ngx-loading>
+</div>

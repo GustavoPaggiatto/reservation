@@ -1,0 +1,21 @@
+#btn-list-contacts,
+#btn-reservation {
+    margin-right: 5px;
+}
+
+#main-contacts {
+    background-color: #ffffff;
+}
+
+.mat-sort-header-container {
+    align-items: center;
+}
+
+#autoforce {
+    background-color: #e9ecef !important;
+    border: 1px solid #ced4da !important;
+    padding: 0.375rem 0.75rem !important;
+    height: calc(1.5em + 0.75rem + 2px) !important;
+    line-height: 1.5 !important;
+    font-size: 1rem !important;
+}

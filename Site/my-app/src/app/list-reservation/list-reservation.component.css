@@ -1,0 +1,49 @@
+#main-reservation {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.div-table {
+    background-color: #f2f2f2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.div-table .d-flex {
+    height: 100%;
+}
+
+.div-table a {
+    color: #ffffff;
+    background-color: #999999 !important;
+}
+
+.div-table p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.div-table span.min-font {
+    font-size: 0.7rem;
+}
+
+.div-table img {
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.col-sm-12.suppress-margin-left {
+    margin-left: -15px;
+}
+
+@media (max-width: 768px) {
+    .div-table .hide {
+        display: none;
+    }
+}
+
+.div-table .logo {
+    max-width: 50px;
+    height: auto;
+}
