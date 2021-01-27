@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Unity" Version="5.11.9" />
+    <PackageReference Include="Unity.log4net" Version="5.11.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Reservation.Adapter\Reservation.Adapter.csproj" />
+    <ProjectReference Include="..\Reservation.Data\Reservation.Data.csproj" />
+    <ProjectReference Include="..\Reservation.Domains\Reservation.Domains.csproj" />
+    <ProjectReference Include="..\Reservation.Services\Reservation.Services.csproj" />
+  </ItemGroup>
+
+</Project>

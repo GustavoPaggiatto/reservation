@@ -1,0 +1,433 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Api\\Reservation.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Adapter\\Reservation.Adapter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Adapter\\Reservation.Adapter.csproj",
+        "projectName": "Reservation.Adapter",
+        "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Adapter\\Reservation.Adapter.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Adapter\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Domains\\Reservation.Domains.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Domains\\Reservation.Domains.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Api\\Reservation.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Api\\Reservation.Api.csproj",
+        "projectName": "Reservation.Api",
+        "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Api\\Reservation.Api.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.CrossCutting\\Reservation.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.CrossCutting\\Reservation.CrossCutting.csproj"
+              },
+              "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Domains\\Reservation.Domains.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Domains\\Reservation.Domains.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Unity": {
+              "target": "Package",
+              "version": "[5.11.9, )"
+            },
+            "Unity.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.11.5, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.CrossCutting\\Reservation.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.CrossCutting\\Reservation.CrossCutting.csproj",
+        "projectName": "Reservation.CrossCutting",
+        "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.CrossCutting\\Reservation.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Adapter\\Reservation.Adapter.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Adapter\\Reservation.Adapter.csproj"
+              },
+              "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Data\\Reservation.Data.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Data\\Reservation.Data.csproj"
+              },
+              "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Domains\\Reservation.Domains.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Domains\\Reservation.Domains.csproj"
+              },
+              "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Services\\Reservation.Services.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Services\\Reservation.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Unity": {
+              "target": "Package",
+              "version": "[5.11.9, )"
+            },
+            "Unity.log4net": {
+              "target": "Package",
+              "version": "[5.11.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Data\\Reservation.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Data\\Reservation.Data.csproj",
+        "projectName": "Reservation.Data",
+        "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Data\\Reservation.Data.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Domains\\Reservation.Domains.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Domains\\Reservation.Domains.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Domains\\Reservation.Domains.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Domains\\Reservation.Domains.csproj",
+        "projectName": "Reservation.Domains",
+        "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Domains\\Reservation.Domains.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Domains\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Services\\Reservation.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Services\\Reservation.Services.csproj",
+        "projectName": "Reservation.Services",
+        "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Services\\Reservation.Services.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Domains\\Reservation.Domains.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Domains\\Reservation.Domains.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
