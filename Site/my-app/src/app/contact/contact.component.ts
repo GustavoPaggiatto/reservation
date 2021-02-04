@@ -122,6 +122,11 @@ export class ContactComponent implements OnInit {
       return;
     }
 
+    if (this._birthdate > new Date()) {
+      showError($localize`:@@birthDateAfter:Birth date invalid (future).`);
+      return;
+    }
+
     if (this._contactTypeId == null || this._contactTypeId == 0) {
       showError($localize`:@@contactTypeEmpty:Contact Type not selected.`);
       return;
@@ -134,9 +139,9 @@ export class ContactComponent implements OnInit {
 
     //show loading...
     this._loading = true;
-    
-    let dateTemporary = this._birthdate;
-    dateTemporary.setDate(dateTemporary.getDate() + 1);
+
+    //let dateTemporary = this._birthdate;
+    //dateTemporary.setDate(dateTemporary.getDate() + 1);
 
     this._httpClient.post<Result>(
       this._configService.getBaseUrl() +
@@ -144,7 +149,7 @@ export class ContactComponent implements OnInit {
       (this._contactId != 0 ? "Edit" : "Create"), {
       id: this._contactId,
       name: this._name,
-      birthDate: dateTemporary,
+      birthDate: this._birthdate,
       contactTypeId: Number(this._contactTypeId),
       phone: this._phone,
       logo: this._logo

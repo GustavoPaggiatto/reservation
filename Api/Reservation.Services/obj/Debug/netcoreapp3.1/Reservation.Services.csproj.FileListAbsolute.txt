@@ -22,3 +22,15 @@ C:\Users\Gustavo\Documents\Mira\Estudos\Api\Reservation.Services\obj\Debug\netco
 C:\Users\Gustavo\Documents\Mira\Estudos\Api\Reservation.Services\obj\Debug\netcoreapp3.1\Reservation.Services.csproj.CopyComplete
 C:\Users\Gustavo\Documents\Mira\Estudos\Api\Reservation.Services\obj\Debug\netcoreapp3.1\Reservation.Services.dll
 C:\Users\Gustavo\Documents\Mira\Estudos\Api\Reservation.Services\obj\Debug\netcoreapp3.1\Reservation.Services.pdb
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Services\bin\Debug\netcoreapp3.1\Reservation.Services.deps.json
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Services\bin\Debug\netcoreapp3.1\Reservation.Services.dll
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Services\bin\Debug\netcoreapp3.1\Reservation.Services.pdb
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Services\bin\Debug\netcoreapp3.1\Reservation.Domains.dll
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Services\bin\Debug\netcoreapp3.1\Reservation.Domains.pdb
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Services\obj\Debug\netcoreapp3.1\Reservation.Services.csprojAssemblyReference.cache
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Services\obj\Debug\netcoreapp3.1\Reservation.Services.AssemblyInfoInputs.cache
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Services\obj\Debug\netcoreapp3.1\Reservation.Services.AssemblyInfo.cs
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Services\obj\Debug\netcoreapp3.1\Reservation.Services.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Services\obj\Debug\netcoreapp3.1\Reservation.Services.csproj.CopyComplete
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Services\obj\Debug\netcoreapp3.1\Reservation.Services.dll
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Services\obj\Debug\netcoreapp3.1\Reservation.Services.pdb

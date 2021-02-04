@@ -7551,11 +7551,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.CrossCutting\\Reservation.CrossCutting.csproj",
+      "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.CrossCutting\\Reservation.CrossCutting.csproj",
       "projectName": "Reservation.CrossCutting",
-      "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.CrossCutting\\Reservation.CrossCutting.csproj",
+      "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.CrossCutting\\Reservation.CrossCutting.csproj",
       "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.CrossCutting\\obj\\",
+      "outputPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.CrossCutting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
@@ -7575,17 +7575,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Adapter\\Reservation.Adapter.csproj": {
-              "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Adapter\\Reservation.Adapter.csproj"
+            "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.Adapter\\Reservation.Adapter.csproj": {
+              "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.Adapter\\Reservation.Adapter.csproj"
             },
-            "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Data\\Reservation.Data.csproj": {
-              "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Data\\Reservation.Data.csproj"
+            "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.Data\\Reservation.Data.csproj": {
+              "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.Data\\Reservation.Data.csproj"
             },
-            "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Domains\\Reservation.Domains.csproj": {
-              "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Domains\\Reservation.Domains.csproj"
+            "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.Domains\\Reservation.Domains.csproj": {
+              "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.Domains\\Reservation.Domains.csproj"
             },
-            "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Services\\Reservation.Services.csproj": {
-              "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Services\\Reservation.Services.csproj"
+            "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.Services\\Reservation.Services.csproj": {
+              "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.Services\\Reservation.Services.csproj"
             }
           }
         }

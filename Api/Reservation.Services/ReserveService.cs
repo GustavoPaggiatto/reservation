@@ -4,6 +4,7 @@ using Reservation.Domains.Envelopers;
 using Reservation.Domains.Interfaces.Repositories;
 using Reservation.Domains.Interfaces.Services;
 using System;
+using System.Collections.Generic;
 
 namespace Reservation.Services
 {
@@ -122,6 +123,21 @@ namespace Reservation.Services
             }
 
             return result;
+        }
+
+        public Result<IEnumerable<Reserve>> Get(Contact contact)
+        {
+            this._logger.Debug("Starting method Get(Contact contact); Tier: Service; Class: ReserveService.");
+
+            try
+            {
+                var result = (this._repository as IReserveRepository).Get(contact);
+                return result;
+            }
+            finally
+            {
+                this._logger.Debug("Finishing method Get(Contact contact); Tier: Service; Class: ReserveService.");
+            }
         }
     }
 }

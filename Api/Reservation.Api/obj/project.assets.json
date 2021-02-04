@@ -7969,11 +7969,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Api\\Reservation.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.Api\\Reservation.Api.csproj",
       "projectName": "Reservation.Api",
-      "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Api\\Reservation.Api.csproj",
+      "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.Api\\Reservation.Api.csproj",
       "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Api\\obj\\",
+      "outputPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
@@ -7993,11 +7993,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.CrossCutting\\Reservation.CrossCutting.csproj": {
-              "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.CrossCutting\\Reservation.CrossCutting.csproj"
+            "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.CrossCutting\\Reservation.CrossCutting.csproj": {
+              "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.CrossCutting\\Reservation.CrossCutting.csproj"
             },
-            "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Domains\\Reservation.Domains.csproj": {
-              "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Domains\\Reservation.Domains.csproj"
+            "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.Domains\\Reservation.Domains.csproj": {
+              "projectPath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.Domains\\Reservation.Domains.csproj"
             }
           }
         }

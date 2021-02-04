@@ -1,4 +1,7 @@
 ﻿using Reservation.Domains.Entities;
+using Reservation.Domains.Envelopers;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Reservation.Domains.Interfaces.Services
 {
@@ -7,5 +10,6 @@ namespace Reservation.Domains.Interfaces.Services
     /// </summary>
     public interface IReserveService : IService<Reserve>
     {
+        Result<IEnumerable<Reserve>> Get(Contact contact);
     }
 }

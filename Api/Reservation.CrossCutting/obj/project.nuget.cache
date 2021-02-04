@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "du8VgPpkxAbIzp2tfuWflcHSwAnvxF83CQviard6Jx8K64yCKU0PwEUvho3MzHq7nAgGFKnekhBPqDug26sKJg==",
+  "dgSpecHash": "WZTvx0ywBlBrn53R58d18t/B/UaWP4814TLub1UaoWRUmGZJio7yJqYrmqFlDJAAfpEL23V3SW3Cy06bWZUgvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.CrossCutting\\Reservation.CrossCutting.csproj",
+  "projectFilePath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.CrossCutting\\Reservation.CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gustavo\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
     "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

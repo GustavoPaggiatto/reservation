@@ -22,3 +22,15 @@ C:\Users\Gustavo\Documents\Mira\Estudos\Api\Reservation.Adapter\obj\Debug\netcor
 C:\Users\Gustavo\Documents\Mira\Estudos\Api\Reservation.Adapter\obj\Debug\netcoreapp3.1\Reservation.Adapter.csproj.CopyComplete
 C:\Users\Gustavo\Documents\Mira\Estudos\Api\Reservation.Adapter\obj\Debug\netcoreapp3.1\Reservation.Adapter.dll
 C:\Users\Gustavo\Documents\Mira\Estudos\Api\Reservation.Adapter\obj\Debug\netcoreapp3.1\Reservation.Adapter.pdb
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Adapter\bin\Debug\netcoreapp3.1\Reservation.Adapter.deps.json
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Adapter\bin\Debug\netcoreapp3.1\Reservation.Adapter.dll
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Adapter\bin\Debug\netcoreapp3.1\Reservation.Adapter.pdb
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Adapter\bin\Debug\netcoreapp3.1\Reservation.Domains.dll
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Adapter\bin\Debug\netcoreapp3.1\Reservation.Domains.pdb
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Adapter\obj\Debug\netcoreapp3.1\Reservation.Adapter.csprojAssemblyReference.cache
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Adapter\obj\Debug\netcoreapp3.1\Reservation.Adapter.AssemblyInfoInputs.cache
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Adapter\obj\Debug\netcoreapp3.1\Reservation.Adapter.AssemblyInfo.cs
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Adapter\obj\Debug\netcoreapp3.1\Reservation.Adapter.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Adapter\obj\Debug\netcoreapp3.1\Reservation.Adapter.csproj.CopyComplete
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Adapter\obj\Debug\netcoreapp3.1\Reservation.Adapter.dll
+C:\Users\Gustavo\Documents\Mira\Estudos\reservation\reservation\Api\Reservation.Adapter\obj\Debug\netcoreapp3.1\Reservation.Adapter.pdb

@@ -294,6 +294,18 @@
         <source>Phone only accept numbers.</source>
         <target>Phone only accept numbers.</target>
       </trans-unit>
+      <trans-unit id="reserveDatePassed" datatype="html">
+        <source>Invalid date (passed).</source>
+        <target>Invalid date (passed).</target>
+      </trans-unit>
+      <trans-unit id="reserveDateNotFill" datatype="html">
+        <source>Reserve date is empty or invalid.</source>
+        <target>Reserve date is empty or invalid.</target>
+      </trans-unit>
+      <trans-unit id="birthDateAfter" datatype="html">
+        <source>Birth date invalid (future).</source>
+        <target>Birth date invalid (future).</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

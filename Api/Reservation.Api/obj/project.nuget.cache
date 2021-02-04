@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qL7oMYWphLKuJ9zi7/QwFcP5xjq8e2w+vXh5fdm4qqCHITWjdZ/3fuWREcJpoozDPXJZeYHFwC6LS2dOnuBUOA==",
+  "dgSpecHash": "aaoo10qgTrf91eoRmsUVka3RzlM5VACdyL5SoeomK9VVKRlWyaOiI3fmxMtSQiVMbOLO9L5Hr6TObCUfCzy0Rg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Api\\Reservation.Api.csproj",
+  "projectFilePath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.Api\\Reservation.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gustavo\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
     "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Reservation.Domains.Entities
 {
@@ -12,5 +14,7 @@ namespace Reservation.Domains.Entities
         public DateTime BirthDate { get; set; }
         public int ContactTypeId { get; set; }
         public string Logo { get; set; }
+        public ContactType ContactType { get; set; }
+        public IEnumerable<Reserve> Reservs { get; set; }
     }
 }

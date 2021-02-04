@@ -7,6 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Microsoft.Extensions.DependencyInjection;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace Reservation.Api.Controllers
 {
@@ -88,8 +89,25 @@ namespace Reservation.Api.Controllers
         {
             this._logger.Debug("Starting method Delete(); Tier: Api; Class: ContractController.");
 
+            var result = new Result();
+
+            var reserveService = this.HttpContext.RequestServices.GetService<IReserveService>();
+
+            var reserveResult = reserveService.Get(model);
+
+            if (reserveResult.Error)
+            {
+                result.AddError(reserveResult.Messages.First());
+                return result;
+            }
+
+            result = reserveService.Delete(reserveResult.Content);
+
+            if (result.Error)
+                return result;
+
             var service = this.HttpContext.RequestServices.GetService<IContactService>();
-            var result = service.Delete(model);
+            result = service.Delete(model);
 
             this._logger.Debug("Finishing method Delete(); Tier: Api; Class: ContractController.");
 

@@ -28,7 +28,7 @@ namespace Reservation.Data
         public BaseRepository(ILog logger, IConfiguration config)
         {
             string sqlStr = config.GetConnectionString("default");
-            
+
             this._dbContext = new ReservationContext(sqlStr);
             this._entities = this._dbContext.Set<T>();
             this._logger = logger;
@@ -69,7 +69,28 @@ namespace Reservation.Data
         /// <returns></returns>
         public Result Delete(IEnumerable<T> instances)
         {
-            throw new System.NotImplementedException();
+            var result = new Result();
+            this._logger.Debug("Starting method Delete(IEnumerable<instances>); Tier: Repository; Class: BaseRepository.");
+
+            try
+            {
+                foreach (var instance in instances)
+                {
+                    this._entities.Remove(instance);
+                }
+
+                this._dbContext.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                this._logger.Error(ex);
+
+                result.AddError($"{this._defaultExceptionText} deleting records, " +
+                    $"try again or request technical team to view logs etc.");
+            }
+
+            this._logger.Debug("Finishing method Delete(IEnumerable<instances>); Tier: Repository; Class: BaseRepository.");
+            return result;
         }
 
         /// <summary>

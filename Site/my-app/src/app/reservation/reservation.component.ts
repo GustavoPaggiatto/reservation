@@ -131,7 +131,7 @@ export class ReservationComponent implements OnInit {
                         this._contactPhone = item.phone;
                         this._contactName = item.name;
                         this._contactDate = new Date(item.birthDate).toLocaleDateString();
-                        this._birthdate = item.birthDate;
+                        this._birthdate = result.content.schedule;
                         this._contactTypeDescription = itemType.description;
 
                         this._reserveRanking = result.content.ranking;
@@ -217,8 +217,8 @@ export class ReservationComponent implements OnInit {
       this._contactDate = new Date(contact.contact.birthDate).toLocaleDateString();
       this._contactTypeDescription = contact.contactType.description;
 
-      if (this._birthdate == null)
-        this._birthdate = contact.contact.birthDate;
+      //if (this._birthdate == null)
+        //this._birthdate = contact.contact.birthDate;
     }
   }
 
@@ -235,17 +235,28 @@ export class ReservationComponent implements OnInit {
       return;
     }
 
-    this._loading = true;
-    let contact: ContactContactType = this._contactContactTypes.find(c => c.contact.name == this._contactName);
+    //let contact: ContactContactType = this._contactContactTypes.find(c => c.contact.name == this._contactName);
 
-    let dateTemporary = this._birthdate;
-    dateTemporary.setDate(dateTemporary.getDate() + 1);
+    if (this._birthdate == null) {
+      showError($localize`:@@reserveDateNotFill:Reserve date is empty or invalid.`);
+      return;
+    }
+
+    if (this._birthdate < new Date()) {
+      showError($localize`:@@reserveDatePassed:Invalid date (passed).`);
+      return;
+    }
+
+    //let dateTemporary = this._birthdate;
+    //dateTemporary.setDate(dateTemporary.getDate() + 1);
+
+    this._loading = true;
 
     this._http.post<Result>(this._config.getBaseUrl() + (this._reserveId == 0 ? "Reserve/Create" : "Reserve/Edit"), {
       id: Number(this._reserveId),
       contactId: Number(this._contactId),
       description: this._richValue,
-      schedule: dateTemporary,
+      schedule: this._birthdate,
       ranking: this._reserveRanking,
       favorite: this._reserveFavorite
     })

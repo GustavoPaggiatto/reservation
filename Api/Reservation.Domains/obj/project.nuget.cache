@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EHboE6km2ld5UCUn4HM6dYZMbVA9zog+x881TQr3Z5yOwNAFZS0AdcqgFHRZJm+zTGGfHu6oPok2rm8UFmLRNg==",
+  "dgSpecHash": "ar/WUGKpM3GsoR+IqL4PkdIkIVS0Nltp6b9hyDny6tZbT9qq+dR0Ou4ALx5wASCjs1jJCw8HYrtEkcRqUnXclg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Domains\\Reservation.Domains.csproj",
+  "projectFilePath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.Domains\\Reservation.Domains.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

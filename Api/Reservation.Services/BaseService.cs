@@ -75,10 +75,13 @@ namespace Reservation.Services
         {
             if (instances == null || instances.Count() == 0)
             {
+                /*
                 var result = new Result();
                 result.AddError("Content for deletion is not filled.");
 
-                return result;
+                return result;*/
+
+                return new Result();
             }
 
             return this._repository.Delete(instances);

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IYubDpnt6ROW6RpXEXXzEKVUkeGvB+z6M5YIVC0Shw0b1tKKbPmq7yr1SUlYFvZ3USl4zpbA7BTaEuLaOtlaeg==",
+  "dgSpecHash": "STD3pY/wniA0cVIWXh/Q/URmf9LzhKVsWHuvt85rj0vE+GJRRj0mXoWJs8P2L6YDiPG6sBnVyPGBnjR/QoQZrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\Api\\Reservation.Adapter\\Reservation.Adapter.csproj",
+  "projectFilePath": "C:\\Users\\Gustavo\\Documents\\Mira\\Estudos\\reservation\\reservation\\Api\\Reservation.Adapter\\Reservation.Adapter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gustavo\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
     "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
