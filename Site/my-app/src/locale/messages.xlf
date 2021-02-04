@@ -306,6 +306,10 @@
         <source>Birth date invalid (future).</source>
         <target>Birth date invalid (future).</target>
       </trans-unit>
+      <trans-unit id="questionMessage" datatype="html">
+        <source>Do you really want to proceed?</source>
+        <target>Do you really want to proceed?</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

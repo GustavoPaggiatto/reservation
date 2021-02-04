@@ -218,7 +218,7 @@ export class ReservationComponent implements OnInit {
       this._contactTypeDescription = contact.contactType.description;
 
       //if (this._birthdate == null)
-        //this._birthdate = contact.contact.birthDate;
+      //this._birthdate = contact.contact.birthDate;
     }
   }
 
@@ -306,6 +306,16 @@ export class ReservationComponent implements OnInit {
 
             ixDeleted = this._contactsPerPage.findIndex(ix => ix.contact.id == contactId);
             this._contactsPerPage.splice(ixDeleted, 1);
+
+            ixDeleted = this._contactsComplete.findIndex(ix => ix.id == contactId);
+            let contactComplete = this._contactsComplete.find(c => c.id == contactId);
+            this._contactsComplete.splice(ixDeleted, 1);
+
+            if (this._contactName == contactComplete.name) {
+              this._contactName = "";
+              this._contactTypeDescription = "";
+              this._contactPhone = "";
+            }
 
             showSuccess($localize`:@@contactDeleteSuccess:Contact was deleted with success!`, function () {
               console.log("contact was deleted (id: " + contactId + ")");

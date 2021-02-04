@@ -40,7 +40,7 @@ export function showSuccess(message: string, callback: () => void) {
 
 export function showQuestion(callback: () => void) {
     Swal.fire({
-        title: 'Do you really want to proceed?',
+        title: $localize`:@@questionMessage:Do you really want to proceed?`,
         icon: 'question',
         iconHtml: 'question',
         confirmButtonText: 'Yes',

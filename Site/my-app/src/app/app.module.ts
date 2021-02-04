@@ -46,4 +46,5 @@ import { RichTextEditorAllModule } from '@syncfusion/ej2-angular-richtexteditor'
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
