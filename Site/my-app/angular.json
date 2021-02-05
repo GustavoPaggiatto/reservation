@@ -67,6 +67,7 @@
                         },
                         "br": {
                             "aot": true,
+                            "outputPath": "dist/my-app/br",
                             "i18nFile": "src/locale/messages.br.xlf",
                             "i18nFormat": "xlf",
                             "i18nLocale": "br",
